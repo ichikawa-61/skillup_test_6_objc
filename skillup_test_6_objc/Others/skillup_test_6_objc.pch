@@ -1,0 +1,18 @@
+//
+//  skillup_test_6_objc.pch
+//  skillup_test_6_objc
+//
+//  Created by OkuderaYuki on 2017/06/15.
+//  Copyright © 2017年 YukiOkudera. All rights reserved.
+//
+
+#ifndef skillup_test_6_objc_pch
+#define skillup_test_6_objc_pch
+
+#if DEBUG
+#define DLOG(fmt, ...) NSLog(@"%s (line %d) %@", __PRETTY_FUNCTION__, __LINE__, [NSString stringWithFormat:fmt, ## __VA_ARGS__]);
+#else
+#define DLOG(fmt,...)
+#endif
+
+#endif /* skillup_test_6_objc_pch */

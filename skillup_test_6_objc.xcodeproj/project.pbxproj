@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83D07E615DEACD505B377A68 /* Pods_skillup_test_6_objcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3309068A6E5567B9C5ACC8F4 /* Pods_skillup_test_6_objcTests.framework */; };
 		B6A7C7921EE5AF6100B99A85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C7911EE5AF6100B99A85 /* main.m */; };
 		B6A7C7951EE5AF6100B99A85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C7941EE5AF6100B99A85 /* AppDelegate.m */; };
-		B6A7C7981EE5AF6100B99A85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C7971EE5AF6100B99A85 /* ViewController.m */; };
-		B6A7C79B1EE5AF6100B99A85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A7C7991EE5AF6100B99A85 /* Main.storyboard */; };
 		B6A7C79D1EE5AF6100B99A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A7C79C1EE5AF6100B99A85 /* Assets.xcassets */; };
 		B6A7C7A01EE5AF6100B99A85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A7C79E1EE5AF6100B99A85 /* LaunchScreen.storyboard */; };
-		B6A7C7AB1EE5AF6100B99A85 /* skillup_test_6_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C7AA1EE5AF6100B99A85 /* skillup_test_6_objcTests.m */; };
+		B6A7C7BD1EE5B37800B99A85 /* MemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C7BC1EE5B37800B99A85 /* MemoListViewController.m */; };
+		B6A7C7BF1EE5B38400B99A85 /* MemoListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A7C7BE1EE5B38400B99A85 /* MemoListViewController.storyboard */; };
+		B6A7C7C11EE5B70400B99A85 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6A7C7C01EE5B70400B99A85 /* Localizable.strings */; };
+		B6A7C7C91EE5B94E00B99A85 /* Memo.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C7C81EE5B94E00B99A85 /* Memo.m */; };
+		B6A7C7CC1EE5BA0000B99A85 /* MemoDao.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C7CB1EE5BA0000B99A85 /* MemoDao.m */; };
+		B6A7C7D01EE5BBB200B99A85 /* SQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C7CF1EE5BBB200B99A85 /* SQLiteHelper.m */; };
+		B6A7C7D41EE5BFCD00B99A85 /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C7D31EE5BFCD00B99A85 /* FileUtil.m */; };
+		B6A7C7D91EE7152400B99A85 /* MemoDaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C7D81EE7152400B99A85 /* MemoDaoTests.m */; };
+		B6B204FE1EEED4D4008E4676 /* NSDate+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B204FD1EEED4D4008E4676 /* NSDate+Style.m */; };
+		B6B205011EEEEDEE008E4676 /* MemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B205001EEEEDEE008E4676 /* MemoViewController.m */; };
+		B6B205031EEEEDF8008E4676 /* MemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B205021EEEEDF8008E4676 /* MemoViewController.storyboard */; };
+		B6B205091EEEF075008E4676 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B205081EEEF075008E4676 /* UIViewController+Storyboard.m */; };
+		B6B2050C1EEEFE5C008E4676 /* MemoListToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B2050B1EEEFE5C008E4676 /* MemoListToolbar.m */; };
+		B6B2050F1EF02392008E4676 /* SaveMemo.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B2050E1EF02392008E4676 /* SaveMemo.m */; };
+		B6B205121EF030D4008E4676 /* MemoListCellItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B205111EF030D4008E4676 /* MemoListCellItemTests.m */; };
+		B6B205141EF0312D008E4676 /* MemoListToolbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B205131EF0312D008E4676 /* MemoListToolbarTests.m */; };
+		B6B205181EF04363008E4676 /* MemoListCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B205171EF04363008E4676 /* MemoListCellTests.m */; };
+		B6E49D741EEC05340060D9F6 /* MemoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E49D721EEC05340060D9F6 /* MemoListCell.m */; };
+		B6E49D751EEC05340060D9F6 /* MemoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E49D731EEC05340060D9F6 /* MemoListCell.xib */; };
+		B6E49D781EEC07420060D9F6 /* MemoListCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E49D771EEC07420060D9F6 /* MemoListCellItem.m */; };
+		B6E49D7B1EEC1D3E0060D9F6 /* MemoListProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E49D7A1EEC1D3E0060D9F6 /* MemoListProvider.m */; };
+		E03B454F7BBB1934686B82F7 /* Pods_skillup_test_6_objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B96F45DC0D2C32602BB2643 /* Pods_skillup_test_6_objc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +47,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018B720C3ED0DBB0F956DA27 /* Pods-skillup_test_6_objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillup_test_6_objc.release.xcconfig"; path = "Pods/Target Support Files/Pods-skillup_test_6_objc/Pods-skillup_test_6_objc.release.xcconfig"; sourceTree = "<group>"; };
+		07BC94EA544BC7BCBBADCE74 /* Pods-skillup_test_6_objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillup_test_6_objc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skillup_test_6_objc/Pods-skillup_test_6_objc.debug.xcconfig"; sourceTree = "<group>"; };
+		3309068A6E5567B9C5ACC8F4 /* Pods_skillup_test_6_objcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skillup_test_6_objcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B96F45DC0D2C32602BB2643 /* Pods_skillup_test_6_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skillup_test_6_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		905E7E4CF5624D0E27C02D5D /* Pods-skillup_test_6_objcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillup_test_6_objcTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-skillup_test_6_objcTests/Pods-skillup_test_6_objcTests.release.xcconfig"; sourceTree = "<group>"; };
 		B6A7C78D1EE5AF6100B99A85 /* skillup_test_6_objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skillup_test_6_objc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A7C7911EE5AF6100B99A85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6A7C7931EE5AF6100B99A85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6A7C7941EE5AF6100B99A85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6A7C7961EE5AF6100B99A85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B6A7C7971EE5AF6100B99A85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B6A7C79A1EE5AF6100B99A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6A7C79C1EE5AF6100B99A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6A7C79F1EE5AF6100B99A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6A7C7A11EE5AF6100B99A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6A7C7A61EE5AF6100B99A85 /* skillup_test_6_objcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skillup_test_6_objcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6A7C7AA1EE5AF6100B99A85 /* skillup_test_6_objcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skillup_test_6_objcTests.m; sourceTree = "<group>"; };
 		B6A7C7AC1EE5AF6100B99A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A7C7BB1EE5B37800B99A85 /* MemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoListViewController.h; sourceTree = "<group>"; };
+		B6A7C7BC1EE5B37800B99A85 /* MemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoListViewController.m; sourceTree = "<group>"; };
+		B6A7C7BE1EE5B38400B99A85 /* MemoListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MemoListViewController.storyboard; sourceTree = "<group>"; };
+		B6A7C7C01EE5B70400B99A85 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B6A7C7C71EE5B94E00B99A85 /* Memo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memo.h; sourceTree = "<group>"; };
+		B6A7C7C81EE5B94E00B99A85 /* Memo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memo.m; sourceTree = "<group>"; };
+		B6A7C7CA1EE5BA0000B99A85 /* MemoDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoDao.h; sourceTree = "<group>"; };
+		B6A7C7CB1EE5BA0000B99A85 /* MemoDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoDao.m; sourceTree = "<group>"; };
+		B6A7C7CE1EE5BBB200B99A85 /* SQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteHelper.h; sourceTree = "<group>"; };
+		B6A7C7CF1EE5BBB200B99A85 /* SQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteHelper.m; sourceTree = "<group>"; };
+		B6A7C7D21EE5BFCD00B99A85 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		B6A7C7D31EE5BFCD00B99A85 /* FileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtil.m; sourceTree = "<group>"; };
+		B6A7C7D81EE7152400B99A85 /* MemoDaoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoDaoTests.m; sourceTree = "<group>"; };
+		B6B204FC1EEED4D4008E4676 /* NSDate+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Style.h"; sourceTree = "<group>"; };
+		B6B204FD1EEED4D4008E4676 /* NSDate+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Style.m"; sourceTree = "<group>"; };
+		B6B204FF1EEEEDEE008E4676 /* MemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoViewController.h; sourceTree = "<group>"; };
+		B6B205001EEEEDEE008E4676 /* MemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoViewController.m; sourceTree = "<group>"; };
+		B6B205021EEEEDF8008E4676 /* MemoViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MemoViewController.storyboard; sourceTree = "<group>"; };
+		B6B205071EEEF075008E4676 /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
+		B6B205081EEEF075008E4676 /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
+		B6B2050A1EEEFE5C008E4676 /* MemoListToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoListToolbar.h; sourceTree = "<group>"; };
+		B6B2050B1EEEFE5C008E4676 /* MemoListToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoListToolbar.m; sourceTree = "<group>"; };
+		B6B2050D1EF02392008E4676 /* SaveMemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveMemo.h; sourceTree = "<group>"; };
+		B6B2050E1EF02392008E4676 /* SaveMemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveMemo.m; sourceTree = "<group>"; };
+		B6B205111EF030D4008E4676 /* MemoListCellItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoListCellItemTests.m; sourceTree = "<group>"; };
+		B6B205131EF0312D008E4676 /* MemoListToolbarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoListToolbarTests.m; sourceTree = "<group>"; };
+		B6B205171EF04363008E4676 /* MemoListCellTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoListCellTests.m; sourceTree = "<group>"; };
+		B6B205221EF19BF7008E4676 /* skillup_test_6_objc.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skillup_test_6_objc.pch; sourceTree = "<group>"; };
+		B6E49D711EEC05340060D9F6 /* MemoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoListCell.h; sourceTree = "<group>"; };
+		B6E49D721EEC05340060D9F6 /* MemoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoListCell.m; sourceTree = "<group>"; };
+		B6E49D731EEC05340060D9F6 /* MemoListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemoListCell.xib; sourceTree = "<group>"; };
+		B6E49D761EEC07420060D9F6 /* MemoListCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoListCellItem.h; sourceTree = "<group>"; };
+		B6E49D771EEC07420060D9F6 /* MemoListCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoListCellItem.m; sourceTree = "<group>"; };
+		B6E49D791EEC1D3E0060D9F6 /* MemoListProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoListProvider.h; sourceTree = "<group>"; };
+		B6E49D7A1EEC1D3E0060D9F6 /* MemoListProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoListProvider.m; sourceTree = "<group>"; };
+		DE7163D31B4408D9948B7986 /* Pods-skillup_test_6_objcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillup_test_6_objcTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skillup_test_6_objcTests/Pods-skillup_test_6_objcTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E03B454F7BBB1934686B82F7 /* Pods_skillup_test_6_objc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D07E615DEACD505B377A68 /* Pods_skillup_test_6_objcTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +122,11 @@
 		B6A7C7841EE5AF6100B99A85 = {
 			isa = PBXGroup;
 			children = (
+				B91960335350FD6CDC8D1442 /* Frameworks */,
+				E5E5786D1118136BE7121299 /* Pods */,
+				B6A7C78E1EE5AF6100B99A85 /* Products */,
 				B6A7C78F1EE5AF6100B99A85 /* skillup_test_6_objc */,
 				B6A7C7A91EE5AF6100B99A85 /* skillup_test_6_objcTests */,
-				B6A7C78E1EE5AF6100B99A85 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,34 +142,253 @@
 		B6A7C78F1EE5AF6100B99A85 /* skillup_test_6_objc */ = {
 			isa = PBXGroup;
 			children = (
-				B6A7C7931EE5AF6100B99A85 /* AppDelegate.h */,
-				B6A7C7941EE5AF6100B99A85 /* AppDelegate.m */,
-				B6A7C7961EE5AF6100B99A85 /* ViewController.h */,
-				B6A7C7971EE5AF6100B99A85 /* ViewController.m */,
-				B6A7C7991EE5AF6100B99A85 /* Main.storyboard */,
-				B6A7C79C1EE5AF6100B99A85 /* Assets.xcassets */,
-				B6A7C79E1EE5AF6100B99A85 /* LaunchScreen.storyboard */,
-				B6A7C7A11EE5AF6100B99A85 /* Info.plist */,
-				B6A7C7901EE5AF6100B99A85 /* Supporting Files */,
+				B6A7C7B71EE5B00500B99A85 /* Controllers */,
+				B6B204FB1EEED497008E4676 /* Helpers */,
+				B6A7C7B51EE5AFF800B99A85 /* Models */,
+				B6A7C7B81EE5B00B00B99A85 /* Others */,
+				B6A7C7D11EE5BFC200B99A85 /* Utils */,
+				B6A7C7B61EE5B00000B99A85 /* Views */,
 			);
 			path = skillup_test_6_objc;
-			sourceTree = "<group>";
-		};
-		B6A7C7901EE5AF6100B99A85 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B6A7C7911EE5AF6100B99A85 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B6A7C7A91EE5AF6100B99A85 /* skillup_test_6_objcTests */ = {
 			isa = PBXGroup;
 			children = (
-				B6A7C7AA1EE5AF6100B99A85 /* skillup_test_6_objcTests.m */,
+				B6A7C7D51EE714FF00B99A85 /* Models */,
+				B6B205151EF04346008E4676 /* Views */,
 				B6A7C7AC1EE5AF6100B99A85 /* Info.plist */,
 			);
 			path = skillup_test_6_objcTests;
+			sourceTree = "<group>";
+		};
+		B6A7C7B51EE5AFF800B99A85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7C41EE5B92100B99A85 /* Memo */,
+				B6A7C7C31EE5B91C00B99A85 /* MemoList */,
+				B6A7C7C21EE5B90E00B99A85 /* SQLite */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B6A7C7B61EE5B00000B99A85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6E49D701EEC03F30060D9F6 /* MemoList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6A7C7B71EE5B00500B99A85 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7B91EE5B35B00B99A85 /* Memo */,
+				B6A7C7BA1EE5B36000B99A85 /* MemoList */,
+				B6E0CDF41EF1A6AD00499F86 /* Startup */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B6A7C7B81EE5B00B00B99A85 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7931EE5AF6100B99A85 /* AppDelegate.h */,
+				B6A7C7941EE5AF6100B99A85 /* AppDelegate.m */,
+				B6A7C79C1EE5AF6100B99A85 /* Assets.xcassets */,
+				B6A7C7A11EE5AF6100B99A85 /* Info.plist */,
+				B6A7C7C01EE5B70400B99A85 /* Localizable.strings */,
+				B6A7C7911EE5AF6100B99A85 /* main.m */,
+				B6B205221EF19BF7008E4676 /* skillup_test_6_objc.pch */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		B6A7C7B91EE5B35B00B99A85 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				B6B204FF1EEEEDEE008E4676 /* MemoViewController.h */,
+				B6B205001EEEEDEE008E4676 /* MemoViewController.m */,
+				B6B205021EEEEDF8008E4676 /* MemoViewController.storyboard */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		B6A7C7BA1EE5B36000B99A85 /* MemoList */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7BB1EE5B37800B99A85 /* MemoListViewController.h */,
+				B6A7C7BC1EE5B37800B99A85 /* MemoListViewController.m */,
+				B6A7C7BE1EE5B38400B99A85 /* MemoListViewController.storyboard */,
+			);
+			path = MemoList;
+			sourceTree = "<group>";
+		};
+		B6A7C7C21EE5B90E00B99A85 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7CD1EE5BBA800B99A85 /* Common */,
+				B6A7C7C61EE5B93700B99A85 /* DAO */,
+				B6A7C7C51EE5B93200B99A85 /* DTO */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		B6A7C7C31EE5B91C00B99A85 /* MemoList */ = {
+			isa = PBXGroup;
+			children = (
+				B6E49D761EEC07420060D9F6 /* MemoListCellItem.h */,
+				B6E49D771EEC07420060D9F6 /* MemoListCellItem.m */,
+				B6B2050A1EEEFE5C008E4676 /* MemoListToolbar.h */,
+				B6B2050B1EEEFE5C008E4676 /* MemoListToolbar.m */,
+			);
+			path = MemoList;
+			sourceTree = "<group>";
+		};
+		B6A7C7C41EE5B92100B99A85 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				B6B2050D1EF02392008E4676 /* SaveMemo.h */,
+				B6B2050E1EF02392008E4676 /* SaveMemo.m */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		B6A7C7C51EE5B93200B99A85 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7C71EE5B94E00B99A85 /* Memo.h */,
+				B6A7C7C81EE5B94E00B99A85 /* Memo.m */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		B6A7C7C61EE5B93700B99A85 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7CA1EE5BA0000B99A85 /* MemoDao.h */,
+				B6A7C7CB1EE5BA0000B99A85 /* MemoDao.m */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		B6A7C7CD1EE5BBA800B99A85 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7CE1EE5BBB200B99A85 /* SQLiteHelper.h */,
+				B6A7C7CF1EE5BBB200B99A85 /* SQLiteHelper.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B6A7C7D11EE5BFC200B99A85 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7D21EE5BFCD00B99A85 /* FileUtil.h */,
+				B6A7C7D31EE5BFCD00B99A85 /* FileUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B6A7C7D51EE714FF00B99A85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6B205101EF030AA008E4676 /* MemoList */,
+				B6A7C7D61EE7150700B99A85 /* SQLite */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B6A7C7D61EE7150700B99A85 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7D71EE7151100B99A85 /* DAO */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		B6A7C7D71EE7151100B99A85 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7D81EE7152400B99A85 /* MemoDaoTests.m */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		B6B204FB1EEED497008E4676 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B6B204FC1EEED4D4008E4676 /* NSDate+Style.h */,
+				B6B204FD1EEED4D4008E4676 /* NSDate+Style.m */,
+				B6B205071EEEF075008E4676 /* UIViewController+Storyboard.h */,
+				B6B205081EEEF075008E4676 /* UIViewController+Storyboard.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B6B205101EF030AA008E4676 /* MemoList */ = {
+			isa = PBXGroup;
+			children = (
+				B6B205111EF030D4008E4676 /* MemoListCellItemTests.m */,
+				B6B205131EF0312D008E4676 /* MemoListToolbarTests.m */,
+			);
+			path = MemoList;
+			sourceTree = "<group>";
+		};
+		B6B205151EF04346008E4676 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6B205161EF0434D008E4676 /* MemoList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6B205161EF0434D008E4676 /* MemoList */ = {
+			isa = PBXGroup;
+			children = (
+				B6B205171EF04363008E4676 /* MemoListCellTests.m */,
+			);
+			path = MemoList;
+			sourceTree = "<group>";
+		};
+		B6E0CDF41EF1A6AD00499F86 /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C79E1EE5AF6100B99A85 /* LaunchScreen.storyboard */,
+			);
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		B6E49D701EEC03F30060D9F6 /* MemoList */ = {
+			isa = PBXGroup;
+			children = (
+				B6E49D711EEC05340060D9F6 /* MemoListCell.h */,
+				B6E49D721EEC05340060D9F6 /* MemoListCell.m */,
+				B6E49D731EEC05340060D9F6 /* MemoListCell.xib */,
+				B6E49D791EEC1D3E0060D9F6 /* MemoListProvider.h */,
+				B6E49D7A1EEC1D3E0060D9F6 /* MemoListProvider.m */,
+			);
+			path = MemoList;
+			sourceTree = "<group>";
+		};
+		B91960335350FD6CDC8D1442 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B96F45DC0D2C32602BB2643 /* Pods_skillup_test_6_objc.framework */,
+				3309068A6E5567B9C5ACC8F4 /* Pods_skillup_test_6_objcTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5E5786D1118136BE7121299 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07BC94EA544BC7BCBBADCE74 /* Pods-skillup_test_6_objc.debug.xcconfig */,
+				018B720C3ED0DBB0F956DA27 /* Pods-skillup_test_6_objc.release.xcconfig */,
+				DE7163D31B4408D9948B7986 /* Pods-skillup_test_6_objcTests.debug.xcconfig */,
+				905E7E4CF5624D0E27C02D5D /* Pods-skillup_test_6_objcTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,9 +398,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6A7C7AF1EE5AF6100B99A85 /* Build configuration list for PBXNativeTarget "skillup_test_6_objc" */;
 			buildPhases = (
+				81ABF3E966711B053F829356 /* [CP] Check Pods Manifest.lock */,
 				B6A7C7891EE5AF6100B99A85 /* Sources */,
 				B6A7C78A1EE5AF6100B99A85 /* Frameworks */,
 				B6A7C78B1EE5AF6100B99A85 /* Resources */,
+				DD215B92DA603E2C0D451106 /* [CP] Embed Pods Frameworks */,
+				D0456F29F43C249FD0205E7A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +418,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6A7C7B21EE5AF6100B99A85 /* Build configuration list for PBXNativeTarget "skillup_test_6_objcTests" */;
 			buildPhases = (
+				96AFB6E9193F19160DD4EAC7 /* [CP] Check Pods Manifest.lock */,
 				B6A7C7A21EE5AF6100B99A85 /* Sources */,
 				B6A7C7A31EE5AF6100B99A85 /* Frameworks */,
 				B6A7C7A41EE5AF6100B99A85 /* Resources */,
+				67000BF4B801D9269398D053 /* [CP] Embed Pods Frameworks */,
+				CB53D9F71D6DE7E9C7645DF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +481,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A7C7C11EE5B70400B99A85 /* Localizable.strings in Resources */,
+				B6E49D751EEC05340060D9F6 /* MemoListCell.xib in Resources */,
 				B6A7C7A01EE5AF6100B99A85 /* LaunchScreen.storyboard in Resources */,
 				B6A7C79D1EE5AF6100B99A85 /* Assets.xcassets in Resources */,
-				B6A7C79B1EE5AF6100B99A85 /* Main.storyboard in Resources */,
+				B6B205031EEEEDF8008E4676 /* MemoViewController.storyboard in Resources */,
+				B6A7C7BF1EE5B38400B99A85 /* MemoListViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,14 +499,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67000BF4B801D9269398D053 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skillup_test_6_objcTests/Pods-skillup_test_6_objcTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81ABF3E966711B053F829356 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96AFB6E9193F19160DD4EAC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB53D9F71D6DE7E9C7645DF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skillup_test_6_objcTests/Pods-skillup_test_6_objcTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0456F29F43C249FD0205E7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skillup_test_6_objc/Pods-skillup_test_6_objc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD215B92DA603E2C0D451106 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skillup_test_6_objc/Pods-skillup_test_6_objc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6A7C7891EE5AF6100B99A85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6A7C7981EE5AF6100B99A85 /* ViewController.m in Sources */,
+				B6E49D741EEC05340060D9F6 /* MemoListCell.m in Sources */,
+				B6A7C7C91EE5B94E00B99A85 /* Memo.m in Sources */,
+				B6B2050F1EF02392008E4676 /* SaveMemo.m in Sources */,
+				B6E49D781EEC07420060D9F6 /* MemoListCellItem.m in Sources */,
+				B6B205091EEEF075008E4676 /* UIViewController+Storyboard.m in Sources */,
+				B6A7C7BD1EE5B37800B99A85 /* MemoListViewController.m in Sources */,
+				B6B205011EEEEDEE008E4676 /* MemoViewController.m in Sources */,
+				B6E49D7B1EEC1D3E0060D9F6 /* MemoListProvider.m in Sources */,
+				B6A7C7D01EE5BBB200B99A85 /* SQLiteHelper.m in Sources */,
+				B6A7C7D41EE5BFCD00B99A85 /* FileUtil.m in Sources */,
+				B6B204FE1EEED4D4008E4676 /* NSDate+Style.m in Sources */,
 				B6A7C7951EE5AF6100B99A85 /* AppDelegate.m in Sources */,
+				B6A7C7CC1EE5BA0000B99A85 /* MemoDao.m in Sources */,
 				B6A7C7921EE5AF6100B99A85 /* main.m in Sources */,
+				B6B2050C1EEEFE5C008E4676 /* MemoListToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +619,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6A7C7AB1EE5AF6100B99A85 /* skillup_test_6_objcTests.m in Sources */,
+				B6B205141EF0312D008E4676 /* MemoListToolbarTests.m in Sources */,
+				B6B205121EF030D4008E4676 /* MemoListCellItemTests.m in Sources */,
+				B6A7C7D91EE7152400B99A85 /* MemoDaoTests.m in Sources */,
+				B6B205181EF04363008E4676 /* MemoListCellTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,20 +637,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B6A7C7991EE5AF6100B99A85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B6A7C79A1EE5AF6100B99A85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B6A7C79E1EE5AF6100B99A85 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B6A7C79F1EE5AF6100B99A85 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -353,10 +743,12 @@
 		};
 		B6A7C7B01EE5AF6100B99A85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07BC94EA544BC7BCBBADCE74 /* Pods-skillup_test_6_objc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = skillup_test_6_objc/Info.plist;
+				GCC_PREFIX_HEADER = skillup_test_6_objc/Others/skillup_test_6_objc.pch;
+				INFOPLIST_FILE = skillup_test_6_objc/Others/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.skillup-test-6-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -365,10 +757,12 @@
 		};
 		B6A7C7B11EE5AF6100B99A85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018B720C3ED0DBB0F956DA27 /* Pods-skillup_test_6_objc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = skillup_test_6_objc/Info.plist;
+				GCC_PREFIX_HEADER = skillup_test_6_objc/Others/skillup_test_6_objc.pch;
+				INFOPLIST_FILE = skillup_test_6_objc/Others/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.skillup-test-6-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -377,6 +771,7 @@
 		};
 		B6A7C7B31EE5AF6100B99A85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7163D31B4408D9948B7986 /* Pods-skillup_test_6_objcTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
@@ -390,6 +785,7 @@
 		};
 		B6A7C7B41EE5AF6100B99A85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905E7E4CF5624D0E27C02D5D /* Pods-skillup_test_6_objcTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
@@ -420,6 +816,7 @@
 				B6A7C7B11EE5AF6100B99A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6A7C7B21EE5AF6100B99A85 /* Build configuration list for PBXNativeTarget "skillup_test_6_objcTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +825,7 @@
 				B6A7C7B41EE5AF6100B99A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
